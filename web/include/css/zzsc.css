@@ -1,0 +1,55 @@
+fieldset,img {
+	border: 0 none;
+}
+
+:focus {
+	outline: 0;
+}
+
+:link,:visited,ins {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	color: #FF6600 !important;
+}
+
+.gg_full {
+	POSITION: relative;
+	MARGIN: 0px auto;
+	WIDTH: 1100px;
+	background: #e8e8e8
+}
+
+.gg_full .gg_fbtn {
+	POSITION: absolute;
+	WIDTH: 19px;
+	DISPLAY: none;
+	HEIGHT: 55px;
+	TOP: 10px;
+	right: -33px;
+}
+
+.gg_full .gg_fbtn A {
+	DISPLAY: block;
+	background: url(../images/gg_btn.png) no-repeat 0px 0px;
+	HEIGHT: 55px;
+	OVERFLOW: hidden
+}
+
+.gg_full .gg_fbtn .gg_fclose {
+	background: url(../images/gg_btn.png) no-repeat -19px 0px;
+	DISPLAY: block;
+}
+
+.gg_full .gg_fcon {
+	DISPLAY: none;
+	HEIGHT: 400px;
+	width: 1100px;
+}

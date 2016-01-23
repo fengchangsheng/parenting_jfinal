@@ -1,0 +1,77 @@
+﻿
+/* 
+   =========================================================================================================
+	ACCORDION SLIDER
+   =========================================================================================================
+*/
+
+.accordion-slider-caption {
+	top:25px;
+	left:0px;
+	position:absolute;
+	color:#fff;
+	padding:20px 20px;
+	font-size:11px;
+	background:#000;
+	opacity: .8;
+	width: 400px;
+	text-shadow:none;
+	text-decoration:none;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-transition: all 0.5s linear;
+}
+
+.accordion-slider-caption:hover{
+		background:#111;
+}	
+
+.accordion-slider-captiontitle {
+	font-size:14px; 
+	color:#BF252F; 
+	display:block;
+	line-height:26px;
+	margin: 0 0 5px 0;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+#linkup-accordion #kwick1.active .accordion-slider-caption,
+#linkup-accordion #kwick2.active .accordion-slider-caption,
+#linkup-accordion #kwick3.active .accordion-slider-caption,
+#linkup-accordion #kwick4.active .accordion-slider-caption {
+	top: 180px;
+}
+.kwicks {
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.kwicks li{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	cursor: pointer;
+}
+
+
+#linkup-accordion {
+	left: 50%;
+/*	margin-left:-490px;
+	position: absolute;*/
+	background: none;
+	height: 400px;
+/*	top: 0px;*/
+	width: 980px;
+/*	border: 5px solid #FFF;*/
+	z-index: 100
+}
+
+#linkup-accordion li {
+	float: left;
+	width: 245px;
+	height: 400px;
+	margin-right: 5px;
+}

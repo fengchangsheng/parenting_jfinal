@@ -1,0 +1,311 @@
+@CHARSET "UTF-8";
+/* 初始化CSS */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img
+	{
+	margin: 0;
+	padding: 0;
+}
+
+fieldset,img {
+	border: none;
+}
+
+address,caption,cite,code,dfn,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+select {
+	vertical-align: middle;
+}
+
+select,textarea {
+	font-size: 12px;
+	margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	padding: 5px 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearit {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	overflow: hidden;
+}
+
+a {
+	color: #056ea1;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #056ea1;
+}
+
+a:hover,a:active,a:focus {
+	color: #f00;
+	text-decoration: underline;
+}
+
+a.linkRed:link,a.linkRed:visited {
+	color: #f00 !important;
+} /* 红色 */
+a.linkRed:hover {
+	color: #c00 !important;
+}
+
+a.linkRed01:link,a.linkRed01:visited {
+	color: red !important
+}
+
+a.linkRed01:hover {
+	color: red !important
+}
+/* 焦点图 */
+.focus {
+	overflow: hidden;
+	zoom: 1;
+	min-width: 950px;
+	background: url(../images/video_0921_04.png) repeat-x;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.focus_body {
+	background: url(../images/video_0921_05.png) no-repeat center top
+}
+
+.scroll {
+	width: 950px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 16px;
+}
+
+.scroll .t,.arr_left,.arr_right,.scroll_txt {
+	position: absolute;
+}
+
+.arr_left {
+	width: 45px;
+	height: 70px;
+	cursor: pointer;
+	line-height: 400px;
+	overflow: hidden;
+	left: 0;
+	top: 135px;
+	background: url(../images/video_0921_arrow_left.png) no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,
+		sizingMethod=scale, src='../images/video_0921_arrow_left.png' );
+	_background: none;
+}
+
+.arr_right {
+	width: 45px;
+	height: 70px;
+	cursor: pointer;
+	line-height: 400px;
+	overflow: hidden;
+	right: 0;
+	top: 135px;
+	background: url(../images/video_0921_arrow_right.png) no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,
+		sizingMethod=scale, src='../images/video_0921_arrow_right.png' );
+	_background: none;
+}
+
+.scroll .t {
+	width: 145px;
+	height: 36px;
+	cursor: pointer;
+	overflow: hidden;
+	left: -10px;
+	top: 16px;
+	background: url(../images/video_1220_zyc_dsj_logo.png) no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,
+		sizingMethod=scale, src='../images/video_1220_zyc_dsj_logo.png' );
+	_background: none;
+}
+
+.scroll .box {
+	float: left;
+	width: 944px;
+}
+
+.scroll_cont {
+	border: solid 3px #fff;
+	width: 944px;
+	height: 342px
+}
+
+.numList {
+	vertical-align: middle;
+	text-align: center;
+	padding: 8px;
+}
+
+.numList span {
+	display: inline-block;
+	width: 25px;
+	height: 0;
+	padding-top: 8px;
+	border: solid 1px #5e5e5e;
+	margin-right: 5px;
+	background: #0f0f0f;
+	cursor: pointer;
+	line-height: 0;
+	font-size: 0
+}
+
+.numList span.selected {
+	border: solid 1px #333;
+	background: #fff
+}
+
+.scroll_txt {
+	left: 660px;
+	top: 11px;
+}
+
+.scroll_txt .txtbg {
+	position: absolute;
+	width: 257px;
+	height: 390px;
+	left: 0;
+	top: 0;
+	background: url(../images/video_0921_txtbg.png) no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,
+		sizingMethod=scale, src='../images/video_0921_txtbg.png' );
+	_background: none;
+}
+
+.scroll_txt .txtcontent {
+	position: absolute;
+	left: 34px;
+	top: 60px;
+	color: #ccc;
+	width: 210px
+}
+
+.scroll_txt .txtcontent h2 {
+	font-size: 20px;
+	color: #ccc;
+	font-family: 黑体;
+	line-height: 24px;
+	padding: 0 0 5px;
+}
+
+.scroll_txt .txtcontent p {
+	padding: 5px 0;
+}
+
+.scroll_txt .txtcontent p span {
+	color: #2d84be;
+}
+
+.scroll_txt .txtcontent .btn {
+	text-align: center;
+	padding: 10px
+}
+
+.scroll_txt .txtcontent .btn a {
+	background: url(../images/video_0921_02.png) no-repeat 0 -250px;
+	width: 94px;
+	height: 25px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+	line-height: 400px;
+	overflow: hidden
+}
+
+.txtcontent h2 a {
+	color: #ccc;
+}
+
+.txtcontent h2 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.txtcontent h2 a:visited {
+	color: #ccc;
+}
+
+.playList {
+	float: right;
+	width: 308px;
+	overflow: hidden;
+}
+
+.playList li {
+	width: 290px;
+	height: 80px;
+	padding-left: 18px;
+	background: url(../images/video_0815_01.png) no-repeat
+}
+
+.playList li.active {
+	background-position: 0 -80px
+}
+
+.playList li h3 {
+	color: #333;
+	font-size: 16px;
+	font-family: "微软雅黑", "黑体";
+	line-height: 30px;
+}
+
+.playList li a,.playList li a:visited,.playList li a:hover {
+	color: #333
+}
+
+.playList li p {
+	color: #898989;
+	padding-right: 9px
+}
+
+.playList li.active a,.playList li.active a:visited,.playList li.active a:hover,.playList li.active p
+	{
+	color: #fff;
+}
+
+.scrollToTop {
+	width: 80px;
+	height: 80px;
+	background: #64BFAE;
+	color: #fff;
+	line-height: 80px;
+	text-align: center;
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+	cursor: pointer;
+	font-size: 14px;
+	z-index:20000;
+}

@@ -1,0 +1,14 @@
+body {
+	font-size:13px;
+	width:900px;
+	margin:0 auto
+}
+
+ul.noticeList {
+	width:600px;
+}
+
+ul.noticeList li {
+	width:590px;
+	border-bottom:1px solid #eee
+}
